@@ -91,4 +91,12 @@ html, body {
         border-radius: 5px;
         font-size: 16px;
     }
+
+    #results {
+        border: 1px solid black;
+        padding: 10px;
+        color: darkgreen;
+        align-items: center;
+        font-size: 16px;
+    }
 }
