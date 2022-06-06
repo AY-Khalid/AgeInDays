@@ -57,6 +57,7 @@ html, body {
 @media (max-width: 670px) {
     body{
         font-size: 16px;
+        overflow: hidden;
     }
     
     .container {
@@ -80,12 +81,14 @@ html, body {
 
     .blue-button {
         background-color: blue;
+        color: white;
         border-radius: 5px;
         font-size: 16px;
     }
     
     .red-button {
         background-color: red;
+        color: white;
         border-radius: 5px;
         font-size: 16px;
     }
