@@ -1,7 +1,6 @@
 function yearOfBirth() {
     var yearsInDays = prompt("Please enter your birth year");
-    var currentYear = document.getDays();
-    var getDays = (currentYear-yearsInDays) * 365;
+    var getDays = (2022-yearsInDays) * 365;
     var getHours = getDays * 24;
     var h1 = document.createElement("h1"); 
     var textAnswer = document.createTextNode("From " + yearsInDays +
